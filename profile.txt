@@ -1,0 +1,33 @@
+Name: Darrel Tapilaha
+Education: BCIT Computer Systems Technology (Cloud Computing option), graduated Dec 2025
+Level: Entry-level / junior. Recent grad. Not a current student.
+
+Experience:
+- Backend Developer practicum at Stocky AI (APIs, OAuth2, webhooks, third-party integrations)
+- Full Stack Developer practicum (incident reporting portal for a client)
+- Front-end Developer at Discas Vision
+- Co-owner / Operations Manager at a hospitality business in Bali (customer-facing)
+
+Skills: JavaScript, TypeScript, Python, Java, React, Vue, Next.js, Node.js/Express, FastAPI, Django, React Native, Firebase, AWS, GCP, Docker, Terraform, PostgreSQL, MySQL, MongoDB
+
+Location: Burnaby, BC.
+Preferred areas: Greater Vancouver, Calgary, Edmonton, Greater Toronto Area, Ottawa, Montreal, Halifax.
+Still open to anywhere else in Canada. On-site, hybrid, and remote are all fine.
+Languages: English (no French).
+Work authorization: Open work permit. NOT a citizen or PR.
+
+Looking for: Software Developer/Engineer, Frontend, Backend, Full Stack, Junior/Entry-level roles.
+Skip: roles needing 3+ years experience, senior/lead roles, roles requiring citizenship/PR or security clearance, roles only for current students.
+Work authorization: Open work permit. Does NOT need sponsorship now or in the future. Not a citizen or PR yet.
+
+Projects:
+- DownTime App: uses OpenAI API (nwHacks 2026)
+- BirdQuest App: ML image classification with ResNet-50
+- Relocash Marketplace: deployed on AWS
+- Faasify: team marketplace with CI/CD (AWS CodePipeline/CodeBuild/CodeDeploy, Amplify)
+
+Customer-facing experience:
+- Co-owned and ran a hospitality business, handled customers and complaints directly
+- Worked directly with non-technical stakeholders during practicum
+
+Location: Burnaby, BC. Happy to relocate ANYWHERE in Canada, so location is never a problem. Also open to remote.

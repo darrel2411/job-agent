@@ -1,0 +1,5 @@
+venv/
+.env
+__pycache__/
+new_jobs.json
+scored_jobs.json
