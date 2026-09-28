@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = Anthropic()  # reads ANTHROPIC_API_KEY from .env
-MODEL = "claude-haiku-4-5-20251001"  # cheap + fast, good enough for this
+MODEL = "claude-sonnet-5"  
 
 with open("profile.txt") as f:
     PROFILE = f.read()
@@ -41,11 +41,11 @@ def score_job(job):
     )
     msg = client.messages.create(
         model=MODEL,
-        max_tokens=300,
+        max_tokens=1000,
         system=SYSTEM,
         messages=[{"role": "user", "content": job_text}],
     )
-    text = msg.content[0].text
+    text = next((b.text for b in msg.content if b.type == "text"), "")
     # grab just the JSON part in case Claude adds extra text
     start, end = text.find("{"), text.rfind("}") + 1
     return json.loads(text[start:end])
